@@ -12,3 +12,4 @@ crate-type = ["cdylib"]
 [dependencies]
 pyo3 = { version = "0.23", features = ["extension-module"] }
 regex = "1.10"
+unicode-normalization = "0.1"

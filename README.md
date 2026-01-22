@@ -36,7 +36,7 @@ make run
 Or step by step:
 
 ```bash
-uv sync                      # Install Python dependencies
+uv sync --extra dev          # Install Python + dev dependencies (includes maturin)
 uv run maturin develop       # Build Rust → Python module
 uv run python run.py         # Run pipeline
 ```

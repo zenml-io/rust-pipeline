@@ -26,7 +26,7 @@ build-release:
 
 # Install all dependencies and build
 install:
-	uv sync
+	uv sync --extra dev
 	uv run maturin develop
 
 # Run the pipeline
