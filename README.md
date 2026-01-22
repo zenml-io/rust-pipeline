@@ -121,6 +121,12 @@ uv run python run.py --data-dir /path/to/documents
 cargo test
 ```
 
+## ZenML Stack Notes
+
+This demo is designed for the **default local ZenML stack**. If you have a remote stack configured (e.g., with an S3 artifact store) and encounter errors, switch back to the local stack with `zenml stack set default`.
+
+**Running on cloud orchestrators:** To run this pipeline on Kubernetes, Vertex AI, or other remote orchestrators, you'll need to ensure the compiled Rust extension is available in your step's Docker image. The simplest approach is to build a custom parent image that includes the Rust toolchain and pre-built wheel, then reference it via ZenML's `DockerSettings`. You can specify `apt_packages` for system dependencies, use a custom `dockerfile` for full control over the build, or point to a pre-built `parent_image` with `skip_build=True` if you've already baked in ZenML and the extension. See ZenML's [containerization docs](https://docs.zenml.io/concepts/containerization) for details. You'll also want to use cloud URIs (like `s3://...`) for your data paths, or bake the sample data into your image.
+
 ## Why This Approach?
 
 For Rust developers who want MLOps tooling:

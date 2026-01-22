@@ -35,3 +35,6 @@ venv/
 
 # Claude Code local settings (user-specific)
 .claude/settings.local.json
+
+# Design documents (internal planning, not for distribution)
+/design/
