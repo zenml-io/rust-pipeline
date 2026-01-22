@@ -2,6 +2,8 @@
 
 This example demonstrates how to use **Rust** for high-performance text processing within a **ZenML** pipeline, using [PyO3](https://pyo3.rs) to expose Rust functions to Python.
 
+<img width="1531" height="966" alt="CleanShot 2026-01-22 at 10 14 53" src="https://github.com/user-attachments/assets/4e558197-e1b8-4210-8601-2244613256c2" />
+
 ## What This Does
 
 Processes financial documents (earnings call transcripts) to prepare them for a RAG system:
