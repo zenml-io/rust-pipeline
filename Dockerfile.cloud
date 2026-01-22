@@ -1,0 +1,86 @@
+# Dockerfile.cloud
+# Example Dockerfile for running this Rust + ZenML pipeline on cloud orchestrators.
+# This creates an image suitable as a ZenML step parent image.
+#
+# Build:   docker build -f Dockerfile.cloud -t rust-rag-preprocessing:latest .
+# Run:     docker run --rm rust-rag-preprocessing:latest
+#
+# Use with ZenML:
+#   from zenml.config import DockerSettings
+#   docker_settings = DockerSettings(
+#       parent_image="your-registry/rust-rag-preprocessing:latest",
+#       skip_build=True,
+#   )
+
+# syntax=docker/dockerfile:1
+
+# ==============================================================================
+# Stage 1: Builder - Install Rust, build the maturin wheel
+# ==============================================================================
+FROM ghcr.io/astral-sh/uv:python3.12-bookworm AS builder
+
+# uv settings for container builds
+ENV UV_LINK_MODE=copy \
+    UV_COMPILE_BYTECODE=1
+
+# Install system dependencies for Rust compilation
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    curl \
+    build-essential \
+    pkg-config \
+    ca-certificates \
+    && rm -rf /var/lib/apt/lists/*
+
+# Install Rust toolchain (builder stage only - won't be in final image)
+RUN curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs \
+    | sh -s -- -y --profile minimal
+ENV PATH="/root/.cargo/bin:${PATH}"
+
+WORKDIR /build
+
+# Copy dependency manifests first for better layer caching
+COPY pyproject.toml Cargo.toml Cargo.lock ./
+
+# Create virtual environment and install build tools
+RUN uv venv /opt/venv
+ENV PATH="/opt/venv/bin:${PATH}"
+RUN uv pip install maturin
+
+# Copy source files needed for the wheel build
+COPY src/ ./src/
+COPY rag_preprocessing/ ./rag_preprocessing/
+COPY README.md ./
+
+# Build the wheel (release mode, stripped for smaller size)
+RUN maturin build --release --strip -o /build/wheels
+
+# ==============================================================================
+# Stage 2: Runtime - Clean image with just Python, ZenML, and our extension
+# ==============================================================================
+FROM ghcr.io/astral-sh/uv:python3.12-bookworm-slim AS runtime
+
+# uv settings
+ENV UV_LINK_MODE=copy \
+    UV_COMPILE_BYTECODE=1
+
+WORKDIR /app
+
+# Create runtime virtual environment
+RUN uv venv /opt/venv
+ENV PATH="/opt/venv/bin:${PATH}" \
+    VIRTUAL_ENV="/opt/venv"
+
+# Install the built wheel (this also installs ZenML via dependencies)
+COPY --from=builder /build/wheels/*.whl /tmp/wheels/
+RUN uv pip install /tmp/wheels/*.whl && rm -rf /tmp/wheels
+
+# Copy the demo entrypoint and sample data so defaults work out-of-the-box
+COPY run.py ./
+COPY data/sample_transcripts/ ./data/sample_transcripts/
+
+# Create output directory for results
+RUN mkdir -p /app/output
+
+# Default command for standalone "docker run" usage
+# (ZenML will override this when running as a step parent image)
+CMD ["python", "run.py"]

@@ -1,0 +1,38 @@
+# .dockerignore
+# Exclude files that shouldn't be in the Docker build context
+
+# Virtual environments
+.venv/
+venv/
+.env/
+
+# Rust build artifacts (large!)
+target/
+
+# Python cache
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+
+# Git
+.git/
+.gitignore
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Output artifacts
+output/
+
+# ZenML local data
+.zen/
+
+# Design docs (internal)
+design/
+
+# Claude Code settings
+.claude/

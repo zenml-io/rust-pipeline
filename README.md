@@ -125,7 +125,36 @@ cargo test
 
 This demo is designed for the **default local ZenML stack**. If you have a remote stack configured (e.g., with an S3 artifact store) and encounter errors, switch back to the local stack with `zenml stack set default`.
 
-**Running on cloud orchestrators:** To run this pipeline on Kubernetes, Vertex AI, or other remote orchestrators, you'll need to ensure the compiled Rust extension is available in your step's Docker image. The simplest approach is to build a custom parent image that includes the Rust toolchain and pre-built wheel, then reference it via ZenML's `DockerSettings`. You can specify `apt_packages` for system dependencies, use a custom `dockerfile` for full control over the build, or point to a pre-built `parent_image` with `skip_build=True` if you've already baked in ZenML and the extension. See ZenML's [containerization docs](https://docs.zenml.io/concepts/containerization) for details. You'll also want to use cloud URIs (like `s3://...`) for your data paths, or bake the sample data into your image.
+### Running on Cloud Orchestrators
+
+To run this pipeline on Kubernetes, Vertex AI, or other remote orchestrators, you need the compiled Rust extension available in your step's Docker image. We provide an example multi-stage Dockerfile that handles this:
+
+```bash
+# Build the example cloud image
+docker build -f Dockerfile.cloud -t rust-rag-preprocessing:latest .
+
+# Test it locally
+docker run --rm rust-rag-preprocessing:latest
+```
+
+The [`Dockerfile.cloud`](./Dockerfile.cloud) uses [uv](https://docs.astral.sh/uv/guides/integration/docker/) for fast, reproducible builds. It installs Rust in a builder stage, compiles the maturin wheel, then creates a slim runtime image with ZenML and the sample data baked in.
+
+To use this image with ZenML's remote orchestrators:
+
+```python
+from zenml.config import DockerSettings
+
+docker_settings = DockerSettings(
+    parent_image="your-registry/rust-rag-preprocessing:latest",
+    skip_build=True,  # Image already has everything needed
+)
+
+@pipeline(settings={"docker": docker_settings})
+def my_pipeline():
+    ...
+```
+
+Push the image to your container registry (ECR, GCR, GHCR, etc.) and reference it in your pipeline. See ZenML's [containerization docs](https://docs.zenml.io/concepts/containerization) for more details on `DockerSettings` options.
 
 ## Why This Approach?
 
