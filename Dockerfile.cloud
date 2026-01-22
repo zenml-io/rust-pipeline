@@ -74,8 +74,9 @@ ENV PATH="/opt/venv/bin:${PATH}" \
 COPY --from=builder /build/wheels/*.whl /tmp/wheels/
 RUN uv pip install /tmp/wheels/*.whl && rm -rf /tmp/wheels
 
-# Copy the demo entrypoint and sample data so defaults work out-of-the-box
+# Copy the demo entrypoint, Python pipeline package, and sample data
 COPY run.py ./
+COPY rag_preprocessing/ ./rag_preprocessing/
 COPY data/sample_transcripts/ ./data/sample_transcripts/
 
 # Create output directory for results
