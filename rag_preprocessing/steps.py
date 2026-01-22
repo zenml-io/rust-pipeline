@@ -3,7 +3,7 @@
 from pathlib import Path
 from typing import Annotated
 
-from zenml import step, log_artifact_metadata
+from zenml import step, log_metadata
 
 # Import our Rust module (built via maturin)
 import rag_rust_core
@@ -31,7 +31,7 @@ def load_documents(
             "content": content,
         })
     
-    log_artifact_metadata(
+    log_metadata(infer_artifact=True,
         metadata={
             "document_count": len(documents),
             "total_chars": sum(len(d["content"]) for d in documents),
@@ -77,7 +77,7 @@ def process_documents(
             chunk["source_file"] = doc["filename"]
             all_chunks.append(chunk)
     
-    log_artifact_metadata(
+    log_metadata(infer_artifact=True,
         metadata={
             "total_chunks": len(all_chunks),
             "avg_chunk_size": (
@@ -113,7 +113,7 @@ def save_results(
     with open(output, "w", encoding="utf-8") as f:
         json.dump(chunks, f, indent=2, ensure_ascii=False)
     
-    log_artifact_metadata(
+    log_metadata(infer_artifact=True,
         metadata={
             "output_file": str(output.absolute()),
             "file_size_bytes": output.stat().st_size,
