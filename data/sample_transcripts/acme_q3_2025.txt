@@ -1,0 +1,38 @@
+ACME Corporation Q3 2025 Earnings Call Transcript
+Date: October 28, 2025
+
+Operator: Good morning and welcome to ACME Corporation's third quarter 2025 earnings conference call. Today's call is being recorded. At this time, I would like to turn the call over to Jane Smith, Chief Financial Officer. Please go ahead.
+
+Jane Smith, CFO: Thank you, and good morning everyone. I'm joined today by our CEO, Michael Chen, and our Chief Operating Officer, Sarah Williams. Before we begin, I'd like to remind you that this call may contain forward-looking statements.
+
+Let me start with the financial highlights. Revenue for Q3 2025 was $847 million, representing a 12% increase year-over-year. This exceeded our guidance range of $800 million to $820 million. Our gross margin expanded to 42.3%, up from 39.8% in Q3 2024, driven primarily by operational efficiencies and favorable product mix.
+
+Operating expenses were $285 million, or 33.6% of revenue, compared to $262 million, or 34.7% of revenue, in the prior year period. This reflects our continued focus on disciplined cost management while investing in key growth initiatives.
+
+Net income for the quarter was $124 million, or $2.15 per diluted share, compared to $98 million, or $1.72 per diluted share, in Q3 2024. This represents a 27% increase in earnings per share year-over-year.
+
+Looking at our balance sheet, we ended the quarter with $1.2 billion in cash and short-term investments. During Q3, we repurchased approximately $150 million of our common stock and paid dividends of $45 million.
+
+Michael Chen, CEO: Thank you, Jane. I'd like to provide some color on our operational performance. Our enterprise segment continues to be a strong performer, with revenue up 18% year-over-year to $523 million. We signed 47 new enterprise customers during the quarter, including several Fortune 500 companies.
+
+The consumer segment generated $324 million in revenue, up 4% year-over-year. While growth was more modest here, we're seeing encouraging trends in customer engagement and retention metrics.
+
+Looking ahead to Q4, we expect revenue in the range of $875 million to $895 million, representing 10% to 12% year-over-year growth. For the full year 2025, we're raising our revenue guidance to $3.25 billion to $3.28 billion, up from our previous guidance of $3.15 billion to $3.20 billion.
+
+Sarah Williams, COO: Let me add some details on our operational initiatives. We completed the migration of our infrastructure to the new data centers in Q3, which is expected to reduce our cloud computing costs by approximately $25 million annually starting in Q1 2026.
+
+We also made significant progress on our sustainability goals. Our carbon emissions decreased by 15% compared to Q3 2024, and we're on track to achieve our target of 50% renewable energy usage by December 2026.
+
+Operator: We'll now open the call for questions. Our first question comes from David Park at Morgan Stanley.
+
+David Park, Morgan Stanley: Thanks for taking my question. Can you provide more detail on the enterprise deal pipeline? What's driving the strong momentum there?
+
+Michael Chen: Sure, David. We're seeing strong demand across several verticals, particularly in financial services and healthcare. Our new AI-powered analytics suite has been very well received. The pipeline for Q4 is robust, with over $200 million in qualified opportunities.
+
+Operator: Our next question comes from Lisa Wong at Goldman Sachs.
+
+Lisa Wong, Goldman Sachs: Good morning. Jane, can you walk us through the gross margin improvement? How sustainable is this level going forward?
+
+Jane Smith: Good morning, Lisa. The gross margin expansion was driven by three factors: first, the shift toward higher-margin enterprise products, which accounted for about 150 basis points of improvement; second, manufacturing efficiencies that contributed approximately 100 basis points; and third, favorable foreign exchange, which added about 50 basis points. We expect gross margins to remain in the 41% to 43% range for the foreseeable future.
+
+Operator: That concludes today's call. Thank you for joining us.

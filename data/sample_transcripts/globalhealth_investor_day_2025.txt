@@ -1,0 +1,86 @@
+GlobalHealth Systems Annual Investor Day 2025
+Date: September 10, 2025
+Location: New York City
+
+Opening Remarks - Patricia Henderson, CEO
+
+Good morning and welcome to GlobalHealth Systems' 2025 Investor Day. I'm Patricia Henderson, and I've had the privilege of leading this company for the past seven years. Today, I'm joined by our entire executive leadership team, and we're excited to share our vision for the future.
+
+Let me start with where we are today. GlobalHealth Systems is now the third-largest healthcare technology provider in the United States, serving over 3,500 hospitals and 45,000 physician practices. Our solutions touch the lives of approximately 180 million patients annually.
+
+In fiscal year 2025, which ended June 30, 2025, we achieved several milestones:
+
+- Total revenue reached $4.2 billion, up 15% from fiscal 2024
+- Recurring revenue now represents 78% of total revenue, up from 72% two years ago
+- We achieved GAAP profitability for the first time, with net income of $125 million
+- Our customer retention rate remained above 96% for the eighth consecutive year
+
+Financial Overview - Thomas Nakamura, CFO
+
+Thank you, Patricia. Let me provide more detail on our financial performance and outlook.
+
+Revenue for fiscal 2025 was $4.2 billion, broken down as follows: Subscription and maintenance revenue was $2.8 billion, up 19% year-over-year. Implementation services contributed $890 million, up 8%. Hardware and other revenue was $510 million, relatively flat year-over-year.
+
+Our gross margin expanded to 58.2%, up from 55.7% in fiscal 2024. This 250 basis point improvement reflects our transition toward higher-margin recurring revenue streams and increased automation in our implementation processes.
+
+Operating expenses were $2.15 billion, or 51.2% of revenue. R&D spending was $630 million, representing 15% of revenue, as we continue to invest heavily in our next-generation platform. Sales and marketing was $875 million, or 20.8% of revenue, and G&A was $645 million, or 15.4% of revenue.
+
+Operating income was $295 million, up from $185 million in fiscal 2024, representing a 59% increase. Our operating margin expanded to 7% from 5.1% in the prior year.
+
+Looking at our balance sheet, we ended fiscal 2025 with $1.8 billion in cash and investments and $750 million in long-term debt. Our net cash position of $1.05 billion provides significant flexibility for strategic investments and M&A.
+
+Free cash flow for fiscal 2025 was $380 million, up 42% from $268 million in fiscal 2024. We expect free cash flow to continue growing as we benefit from operating leverage and working capital improvements.
+
+For fiscal 2026, we're providing the following guidance:
+- Revenue of $4.7 billion to $4.85 billion, representing 12% to 15% growth
+- Non-GAAP operating margin of 10% to 11%
+- Free cash flow of $450 million to $500 million
+
+Product Strategy - Dr. Michelle Park, Chief Product Officer
+
+Thank you, Thomas. I'd like to share our product roadmap and the innovations we're bringing to market.
+
+Our flagship product, HealthConnect 5.0, launched in March 2025 and has already been deployed at over 800 customer sites. Key features include AI-powered clinical decision support, real-time interoperability with over 200 third-party systems, and a completely redesigned user interface that reduces documentation time by an average of 35%.
+
+We're investing $150 million over the next three years in our AI and machine learning capabilities. Our initial focus areas include:
+
+1. Predictive analytics for patient outcomes, which we expect to reduce hospital readmissions by 12% to 15%
+2. Automated medical coding, which can reduce coding errors by up to 40%
+3. Natural language processing for clinical documentation, saving clinicians an estimated 2 hours per day
+
+In Q1 2026, we plan to launch our new population health management module, which will be priced at approximately $2.50 per member per month. Based on our beta testing with 15 health systems, we're seeing strong demand for this capability.
+
+Growth Strategy - David Washington, Chief Strategy Officer
+
+Our growth strategy rests on three pillars: expanding our core business, entering adjacent markets, and strategic M&A.
+
+In our core business, we see significant opportunity to increase penetration within existing customers. Our average revenue per hospital customer is currently $850,000, compared to a potential wallet share of $2.5 million. We believe we can grow ARPU by 50% over the next five years.
+
+Regarding geographic expansion, we established our first international presence in Canada in January 2025 and plan to enter the UK market by mid-2026. International revenue, while small today at $85 million, is expected to grow to $400 million by fiscal 2028.
+
+On M&A, we've allocated $500 million for acquisitions over the next two years. Our focus areas include patient engagement, revenue cycle management, and healthcare data analytics. We have active conversations with several potential targets.
+
+Closing Remarks - Patricia Henderson, CEO
+
+In summary, GlobalHealth Systems is well positioned for sustained growth. We have a large and growing market opportunity, differentiated products, strong customer relationships, and a proven management team.
+
+Our long-term financial targets are:
+- Revenue growth of 12% to 15% annually through fiscal 2030
+- Operating margin expansion to 15% to 18% by fiscal 2030
+- Return on invested capital exceeding 20%
+
+Thank you for your time today. We'll now take questions.
+
+Q&A Session Highlights
+
+Q: Sarah Mitchell, Deutsche Bank - What's your view on the regulatory environment?
+
+Patricia Henderson: The regulatory environment actually creates opportunity for us. New interoperability requirements are driving demand for our solutions. We expect $300 million to $400 million in incremental revenue opportunity from regulatory compliance over the next three years.
+
+Q: Michael Torres, Credit Suisse - Can you discuss your AI partnership strategy?
+
+Dr. Michelle Park: We have partnerships with leading AI research institutions including MIT and Stanford. We also work closely with major cloud providers. Our approach is to build proprietary AI where it's core to patient care, and partner where there are established best-in-class solutions.
+
+Q: Richard Chen, Wells Fargo - What's the timeline for margin expansion?
+
+Thomas Nakamura: We expect steady margin improvement of 100 to 150 basis points annually. The key drivers are revenue mix shift toward recurring revenue, increased automation, and operating leverage as we scale. We're confident in achieving our 15% to 18% operating margin target by fiscal 2030.

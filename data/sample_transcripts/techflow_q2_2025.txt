@@ -1,0 +1,54 @@
+TechFlow Inc. Q2 2025 Earnings Call Transcript
+Date: July 15, 2025
+
+Operator: Good afternoon and welcome to TechFlow Inc.'s second quarter 2025 earnings call. I would now like to turn the call over to Robert Martinez, Vice President of Investor Relations.
+
+Robert Martinez, VP IR: Thank you, operator. Good afternoon, everyone. With me today are Amanda Foster, our Chief Executive Officer, and James Liu, our Chief Financial Officer.
+
+Before we begin, please note that during this call we will make forward-looking statements. These statements involve risks and uncertainties, and actual results may differ materially. Please refer to our SEC filings for more information.
+
+Amanda, please go ahead.
+
+Amanda Foster, CEO: Thank you, Robert, and thank you all for joining us today. Q2 2025 was a transformative quarter for TechFlow. We achieved record revenue of $1.34 billion, up 23% year-over-year, and made significant progress on our strategic initiatives.
+
+Let me highlight three key accomplishments. First, we successfully launched our next-generation platform in April 2025, which has already been adopted by over 2,000 customers. Second, we completed the acquisition of DataStream Technologies for $425 million, which expands our capabilities in real-time analytics. Third, we opened our new research center in Austin, Texas, adding 350 engineering positions.
+
+Our customer metrics remained strong. Net revenue retention was 118%, reflecting the continued expansion of existing customer relationships. We added 156 new enterprise customers in Q2, bringing our total enterprise customer count to 4,200.
+
+James Liu, CFO: Thank you, Amanda. Let me walk through the financial details.
+
+Total revenue for Q2 2025 was $1.34 billion, compared to $1.09 billion in Q2 2024. Subscription revenue, which represents 82% of total revenue, grew 26% year-over-year to $1.1 billion. Professional services revenue was $240 million, up 11% year-over-year.
+
+By geography, North America contributed $875 million, or 65% of total revenue, up 21% year-over-year. Europe generated $335 million, up 28%, and Asia-Pacific contributed $130 million, up 25%.
+
+Gross profit was $920 million, representing a gross margin of 68.7%, compared to 66.2% in Q2 2024. The 250 basis point improvement was driven by increased scale and automation in our service delivery.
+
+Operating expenses totaled $745 million, or 55.6% of revenue, compared to $612 million, or 56.1% of revenue, in the prior year period. We continue to invest in R&D, which totaled $312 million, or 23.3% of revenue.
+
+Operating income was $175 million, compared to $110 million in Q2 2024, representing a 59% increase. Operating margin expanded to 13.1% from 10.1% in the prior year period.
+
+Net income was $142 million, or $1.85 per diluted share, compared to $89 million, or $1.18 per diluted share, in Q2 2024. This represents a 57% increase in EPS year-over-year.
+
+Turning to the balance sheet and cash flow. We ended Q2 with $2.8 billion in cash, cash equivalents, and marketable securities. Operating cash flow was $285 million, and free cash flow was $215 million, representing a free cash flow margin of 16%.
+
+During the quarter, we repurchased $200 million of common stock under our share repurchase program. We have $800 million remaining under our current authorization.
+
+For Q3 2025, we expect revenue of $1.38 billion to $1.42 billion, representing 19% to 22% year-over-year growth. We expect non-GAAP operating margin of 13% to 14%.
+
+For the full year 2025, we're raising our revenue guidance to $5.4 billion to $5.5 billion, up from our previous guidance of $5.2 billion to $5.35 billion. We now expect full-year non-GAAP operating margin of approximately 13.5%.
+
+Amanda Foster: In closing, I want to thank our employees for their dedication and our customers for their continued partnership. We're excited about the opportunities ahead and remain committed to delivering long-term value for our shareholders.
+
+Operator: We'll now take questions. First question comes from Jennifer Adams at JP Morgan.
+
+Jennifer Adams, JP Morgan: Thanks for taking my question. Amanda, can you talk about the competitive environment? Are you seeing any changes in win rates or deal cycles?
+
+Amanda Foster: Thanks, Jennifer. The competitive environment remains healthy. Our win rates have actually improved slightly, from 35% to 38% in enterprise deals over $500,000. Deal cycles have been stable at around 90 days for enterprise transactions. We believe our differentiated platform and strong customer success program continue to resonate in the market.
+
+Operator: Next question from Kevin Brown at Barclays.
+
+Kevin Brown, Barclays: Good afternoon. James, the gross margin improvement was impressive. Can you discuss how much of the DataStream acquisition will impact margins in the second half?
+
+James Liu: Good question, Kevin. The DataStream acquisition is modestly dilutive to gross margins in the near term, approximately 50 to 75 basis points. However, we expect to achieve full synergy realization by mid-2026, at which point DataStream should be neutral to slightly accretive. The deal remains highly strategic and will contribute meaningfully to our real-time analytics capabilities.
+
+Operator: That concludes today's call. Thank you for your participation.
